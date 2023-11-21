@@ -13,7 +13,7 @@
 </head>
 <body>
     <header>Header
-        <h1>Segunda entrega del proyecto</h1>
+        <h1>Contacto</h1>
         <nav><!--es el padre-->
             <div class="logo"><!--primer hijo-->
                 <img src="./img/logo.png" alt="logo beach">
@@ -29,8 +29,78 @@
         </nav>
     </header>
     <main>   
-        <div>div1</div>
-        <div>div2</div>
+        <div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, accusamus in dolorum expedita voluptatum
+				facilis quo. Eum distinctio, quisquam facilis earum exercitationem quam totam recusandae quae dolores,
+				nesciunt ducimus sequi, qui fugiat eligendi? Ad commodi, saepe cum voluptates aliquid explicabo!</p>
+			<p>Voluptatem tenetur itaque, ratione impedit aperiam consequatur cupiditate cumque necessitatibus fugit
+				voluptatum accusamus ipsam doloremque laborum. Reprehenderit nisi quidem ea assumenda, beatae, inventore
+				cumque officia minima quis provident illo tempora quo perspiciatis doloribus. Aspernatur in
+				exercitationem aliquam quae eius veritatis.</p>
+			<p>Sequi, distinctio fugiat! Sapiente ipsum corrupti eaque veritatis laborum enim dolorum, eos dolore
+				ducimus suscipit aut molestias assumenda aliquam numquam voluptatum et cum perferendis deleniti facilis
+				atque mollitia, reiciendis iste officia dignissimos. Aliquam sed magnam cum distinctio officiis quidem
+				consequatur.</p>
+        </div>
+        <div><h2>Nuestro formulario</h2>
+                
+            <form action="#">
+                <div>
+                    <label for="name">Escribe tu nombre</label>
+                    <input type="text" name="name">
+                </div>
+                
+                <div>
+                    <label for="surname" >Apellido</label>
+                    <input type="text" name="surname" placeholder="Gonzalez">
+                </div>
+                
+                <div>
+                    <label for="mail" name="email">Escribe tu mail *</label>
+                    <input type="email" name="email" required >
+                </div>
+                
+                <div>
+                    <label for="pais">Elije tu país</label>
+                    <select name="pais" id="">
+                        <option value="ar">Argentina</option>
+                        <option value="uy">Uruguay</option>
+                        <option value="cl">Chile</option>
+                    </select>
+                </div>
+                <br>
+                <div class="genero">
+                    <label for="sex">Género</label>
+                    <br>
+                    <input type="radio" name="sex" value="muj">Mujer
+                    <input type="radio" name="sex" value="hom">Hombre
+                    <input type="radio" name="sex" value="nb">No binario
+
+                </div>
+                <br>
+                <div>
+                    <label for="nac">Selecciona tu fecha de nacimiento</label>
+                    <input type="date" name="nac">
+                </div>
+                <br>
+                <div>
+                    <label for="comentario">Escribe un comentario</label>
+                    <br>
+                    <textarea name="comentario" id="" cols="30" rows="10"></textarea>
+                </div>
+                <br>
+                <div class="terminos">
+                    <label for="terminos">Acepto terminos</label>
+                    <input type="checkbox" name="terminos">
+                </div>
+                <br>
+                <div>
+                    <input type="submit" value="Enviar Datos">
+                    <input type="reset" value="Borrar datos">
+                </div>
+                <br>
+
+            </form></div>
     </main>
     <footer>Footer</footer>
     
