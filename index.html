@@ -9,47 +9,65 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Tilt+Neon&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Proyecto</title>
 </head>
 <body>
     <header>
-        <h1>Segunda entrega del proyecto</h1>
-        <nav><!--es el padre-->
-            <div class="logo"><!--primer hijo-->
-                <img src="./img/logo.png" alt="logo beach">
-                <h4>La Palmera</h4>
+        <h1>Contacto</h1>
+
+        <nav class="navbar navbar-expand-lg colorPropio">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img class="logo"  src="../img/logo.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/productos.html">Productos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/servicios.html">Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                  </li>
+                  
+                </ul>
+              </div>
             </div>
-            <ul class="menu"><!--segundo hijo-->
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="./pages/productos.html">Productos</a></li>
-                <li><a href="./pages/servicios.html">Servicios</a></li>
-                <li><a href="./pages/nosotros.html">Nosotros</a></li>
-                <li><a href="./pages/contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+          </nav>
     </header>
     <main>   
-        <div>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, accusamus in dolorum expedita voluptatum
-				facilis quo. Eum distinctio, quisquam facilis earum exercitationem quam totam recusandae quae dolores,
-				nesciunt ducimus sequi, qui fugiat eligendi? Ad commodi, saepe cum voluptates aliquid explicabo!</p>
-			<p>Voluptatem tenetur itaque, ratione impedit aperiam consequatur cupiditate cumque necessitatibus fugit
-				voluptatum accusamus ipsam doloremque laborum. Reprehenderit nisi quidem ea assumenda, beatae, inventore
-				cumque officia minima quis provident illo tempora quo perspiciatis doloribus. Aspernatur in
-				exercitationem aliquam quae eius veritatis.</p>
-			<p>Sequi, distinctio fugiat! Sapiente ipsum corrupti eaque veritatis laborum enim dolorum, eos dolore
-				ducimus suscipit aut molestias assumenda aliquam numquam voluptatum et cum perferendis deleniti facilis
-				atque mollitia, reiciendis iste officia dignissimos. Aliquam sed magnam cum distinctio officiis quidem
-				consequatur.</p>
+        <div class="row">
+            <!--lg-tamaño grande, sm-tamaño pequeño, xs-tamaño pequeño.-->
+            <!--lg-tamaño grande-se reparte 4columnas en los 3, sm-tamaño pequeño-reparte 6columnas en los 2 y la otra la ocupa todo, xs-tamaño pequeño.-reparte de 12 para cada uno-->
+            <div class="col-lg-4 col-sm-6 col-xs-12">
+                <h2>Columna1</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad officiis voluptas corporis molestiae excepturi perferendis nobis eligendi illum error quidem.</p>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-xs-12">
+                <h2>Columna2</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad officiis voluptas corporis molestiae excepturi perferendis nobis eligendi illum error quidem.</p>
+            </div>
+            <div class="col-lg-4 col-sm-12 col-xs-12">
+                <h2>Columna 3</h2>
+                <img src="./img/auto5.png" width="400px" height="370px">
+            </div>
         </div>
-        <div>
-            <img src="./img/auto5.png" width="800px" height="370px">
-        </div>
+        
     </main>
     <footer>
         <p>Telefono 📱 23456</p>
-        <p>Email ✉ info@primeraEntregaDelProyecto.com</p>
+        <p>Email ✉ info@SegundaEntregaDelProyecto.com</p>
     </footer>
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
